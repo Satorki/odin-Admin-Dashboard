@@ -25,13 +25,22 @@ ul {
   align-items: center;
   gap: 15px;
 }
+.dashboard .menu-logo svg {
+    fill: #fff;
+    width: 50px;
+}
 .dashboard .menu {
   margin: 20px 0;
+}
+.dashboard .menu svg {
+    fill: #ffffff;
+    width: 30px;
 }
 .dashboard .menu ul li {
   display: flex;
   margin: 0 0 10px 0;
   gap: 15px;
+  align-items: center;
 }
 .main {
   grid-area: 1 / 2 / 1 / 6;
@@ -41,6 +50,9 @@ ul {
 .panel-up {
   grid-area: 1 / 1 / 1 / 1;
   display: grid;
+}
+.panel-up svg {
+    width: 30px;
 }
 .panel-down {
   grid-area: 2 / 1 / 7 / 1;
