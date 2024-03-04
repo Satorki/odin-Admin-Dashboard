@@ -51,6 +51,22 @@ ul {
   grid-area: 1 / 1 / 1 / 1;
   display: grid;
 }
+.panel-search,
+.panel-user-max {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panel-search ul li,
+.panel-user-max ul li {
+  display: inline;
+  padding: 0 10px;
+}
+.panel-search .search{
+    display: flex;
+    align-items: center;
+}
 .panel-up svg {
     width: 30px;
 }
@@ -72,18 +88,7 @@ ul {
   grid-area: 1 / 4 / 1 / 5;
   margin: 10px;
 }
-.panel-search,
-.panel-user-max {
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.panel-search ul li,
-.panel-user-max ul li {
-  display: inline;
-  padding: 0 10px;
-}
+
 .annouc-item,
 .trending-item {
   padding: 5px 10px 10px 10px;
