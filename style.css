@@ -1,8 +1,15 @@
 * {
   margin: 0;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Medium.ttf);
 }
 
 body {
+  font-family: "Poppins",'Times New Roman', Times, serif;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   height: 100vh;
@@ -63,7 +70,7 @@ ul {
 }
 .panel-search .search {
   display: flex;
-  width: 100%;
+  width: 80%;
 }
 .panel-search input {
   background-color: #e2e8f0;
@@ -172,7 +179,7 @@ button:active {
   padding: 10px 20px;
 }
 .trending {
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
 }
 .trending-item {
   padding: 2px;
