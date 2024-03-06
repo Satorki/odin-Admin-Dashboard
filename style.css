@@ -25,7 +25,10 @@ ul {
   flex-direction: column;
   background-color: #334155;
   color: #fff;
-  padding: 15px 20px 0px 30px;
+  padding: 15px 20px 0px 40px;
+}
+.dashboard h1 {
+  font-size: 2rem;
 }
 .dashboard .menu-logo {
   display: flex;
@@ -178,6 +181,9 @@ button:active {
 .annouc-item {
   padding: 10px 20px;
 }
+.annouc-item p {
+  opacity: 0.5;
+}
 .trending {
   margin: 10px 0 0 0;
 }
@@ -189,6 +195,9 @@ button:active {
     "l n n n"
     "l q q q";
   gap: 0 15px;
+}
+.trending-item .user-quote {
+  opacity: 0.5;
 }
 .user-item {
   display: grid;
@@ -216,8 +225,11 @@ button:active {
 .project-item {
   padding: 10px 20px;
   background-color: #f8fafc;
-  border-left: 5px solid #ffa500;
+  border-left: 10px solid #ffa500;
   border-radius: 10px;
+}
+.project-item p {
+  opacity: 0.6;
 }
 .project-item-settings {
   margin: 40px 0 0 0;
